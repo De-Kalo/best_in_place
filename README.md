@@ -1,3 +1,9 @@
+# Important!
+this is identical to bernat/best_in_place 3.3.1 except the removal of a line in railties files.
+the line was to allow support in Rails 6.1 however it fucked up rails 4.2.
+first noticed in the start of 2022 in local installations.
+this was judged to be better than 🐵 patching the code
+
 # Best In Place
 [![Build Status](https://secure.travis-ci.org/bernat/best_in_place.png)](http://travis-ci.org/bernat/best_in_place)
 **The Unobtrusive in Place editing solution**
